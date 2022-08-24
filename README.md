@@ -1,5 +1,3 @@
 - 👋 Hi, I’m @TomyJan
-- 👀 I’m interested in anything
-- 🌱 I’m currently learning CPL
-- 💞️ I’m looking to collaborate on ...what?
-- 📫 https://tomys.top
+
+- 📫 [https://vov.moe](https://vov.moe)
