@@ -11,12 +11,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card
+      # 生成浅色版本（默认主题）
+      - name: Generate Light Stats Card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
-          path: profile/stats.svg
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=default
+          path: dist/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 生成深色版本（推荐使用 github_dark 或 dark）
+      - name: Generate Dark Stats Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=github_dark
+          path: dist/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # push the content of <build_dir> to a branch
