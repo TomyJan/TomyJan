@@ -1,12 +1,21 @@
 name: Generate README Stats
 
 on:
+  # run automatically every 24 hours
   schedule:
-    - cron: "42 0 * * *"
+    - cron: "42 0 * * *" 
+  
+  # allows to manually run the job at any time
   workflow_dispatch:
+  
+  # run on every push on the master branch
+  push:
+    branches: [ master ]
+    paths:
+      - '.github/workflows/GitHubReadmeStats.yml'
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
