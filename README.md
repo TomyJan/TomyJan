@@ -1,25 +1,33 @@
 - 👋 Hi, I’m @TomyJan
 
-- 📫 [https://vov.moe](https://vov.moe)
+- 🌐 [https://vov.moe](https://vov.moe)
 
 ## GitHub Stats
 
 <div align="center">
+
+  <!-- Snake -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg" width="80%">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg" style="width: 92%; max-width: 1100px;">
   </picture>
-  <picture>
+
+  <br><br>
+
+  <!-- Stats + Top Languages -->
+  <picture style="display: inline-block; width: 42%; max-width: 420px; vertical-align: top;">
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg">
-    <img alt="GitHub Stats" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg" width="60%">
+    <img alt="GitHub Stats" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg" style="width: 100%;">
   </picture>
-  <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-light.svg">
-      <img alt="Top Languages" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-light.svg" width="49%">
+
+  <picture style="display: inline-block; width: 42%; max-width: 420px; vertical-align: top; margin-left: 2%;">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-light.svg">
+    <img alt="Top Languages" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-light.svg" style="width: 100%;">
   </picture>
+
 </div>
 
 ## Wakatime Stats
