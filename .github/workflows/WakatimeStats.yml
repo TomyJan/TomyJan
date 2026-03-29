@@ -28,4 +28,4 @@ jobs:
           UPDATED_DATE_FORMAT: "%d-%m-%Y %H:%M:%S"
           SHOW_LINES_OF_CODE: "True"
           SYMBOL_VERSION: "3"
-          IGNORED_REPOS: "GenshinImpact-Client-Version, WutheringWaves-UIResources, GCResource, GCProto, SRResource, end_7z, SRProto"
+          IGNORED_REPOS: "AscNetTJ,end_7z,GCProto,GCResource,GenshinImpact-Client-Version,HoYoStudio,rafi1212122-PemukulPaku,SRProto,SRResource,WinFormsAppCalculator,WutheringWaves-UIResources"
