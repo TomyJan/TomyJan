@@ -12,7 +12,15 @@
   </picture>
 </div>
 
-![Github Stats](https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats.svg) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TomyJan&layout=compact&theme=tokyonight)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg">
+    <img alt="GitHub Stats" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg" width="100%">
+  </picture>
+</div>
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TomyJan&layout=compact&theme=tokyonight)
 
 ## Wakatime Stats
 
