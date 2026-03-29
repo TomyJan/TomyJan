@@ -16,7 +16,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=default
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=default&exclude_repo=GenshinImpact-Client-Version, WutheringWaves-UIResources, GCResource, GCProto, SRResource, end_7z, SRProto
           path: profile/stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -24,7 +24,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=default&show_icons=true
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=default&show_icons=true&exclude_repo=GenshinImpact-Client-Version, WutheringWaves-UIResources, GCResource, GCProto, SRResource, end_7z, SRProto
           path: profile/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -33,7 +33,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=github_dark
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&exclude_repo=GenshinImpact-Client-Version, WutheringWaves-UIResources, GCResource, GCProto, SRResource, end_7z, SRProto
           path: profile/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -41,7 +41,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=github_dark&show_icons=true
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=github_dark&show_icons=true&exclude_repo=GenshinImpact-Client-Version, WutheringWaves-UIResources, GCResource, GCProto, SRResource, end_7z, SRProto
           path: profile/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
