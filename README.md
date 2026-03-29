@@ -10,17 +10,17 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg">
     <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg" width="80%">
   </picture>
-</div>
-
-<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg">
     <img alt="GitHub Stats" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg" width="60%">
   </picture>
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-light.svg">
+      <img alt="Top Languages" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-light.svg" width="49%">
+  </picture>
 </div>
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TomyJan&layout=compact&theme=tokyonight)
 
 ## Wakatime Stats
 
