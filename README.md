@@ -16,7 +16,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg">
-    <img alt="GitHub Stats" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg" width="100%">
+    <img alt="GitHub Stats" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg" width="60%">
   </picture>
 </div>
 
