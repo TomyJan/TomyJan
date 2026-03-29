@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # 生成浅色版本（默认主题）
+# ==================== 浅色版本 ====================
       - name: Generate Light Stats Card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -20,13 +20,29 @@ jobs:
           path: profile/stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 生成深色版本（推荐使用 github_dark 或 dark）
+      - name: Generate Light Top Languages Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=default&show_icons=true
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ==================== 深色版本 ====================
       - name: Generate Dark Stats Card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=github_dark
           path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Dark Top Languages Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=github_dark&show_icons=true
+          path: profile/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # push the content of <build_dir> to a branch
