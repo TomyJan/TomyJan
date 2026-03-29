@@ -4,9 +4,15 @@
 
 ## GitHub Stats
 
-![Snake!](https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake-dark.svg)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
+</div>
 
-![Github Stats](https://github-readme-stats.vercel.app/api?username=TomyJan&show_icons=true&theme=dark&count_private=true) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TomyJan&layout=compact&theme=tokyonight)
+![Github Stats](https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats.svg) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TomyJan&layout=compact&theme=tokyonight)
 
 ## Wakatime Stats
 
