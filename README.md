@@ -16,7 +16,7 @@
   <br><br>
 
   <!-- Stats Card -->
-  <picture style="display: inline-block; width: 42%; max-width: 420px; vertical-align: top;">
+  <picture style="display: inline-block; width: 42%; max-width: 320px; vertical-align: top;">
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg">
     <img alt="GitHub Stats" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/stats-light.svg" style="width: 100%;">
@@ -25,7 +25,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
 
   <!-- Top Languages Card -->
-  <picture style="display: inline-block; width: 42%; max-width: 420px; vertical-align: top;">
+  <picture style="display: inline-block; width: 42%; max-width: 320px; vertical-align: top;">
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-light.svg">
     <img alt="Top Languages" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-light.svg" style="width: 100%;">
