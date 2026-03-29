@@ -1,12 +1,21 @@
-name: wakatime stats
+name: Wakatime Stats
 
 on:
+  # run automatically every 24 hours
   schedule:
-    # Runs at 12am IST
-    - cron: "10 */24 * * *" 
+    - cron: "42 0 * * *" 
+  
+  # allows to manually run the job at any time
   workflow_dispatch:
+  
+  # run on every push on the master branch
+  push:
+    branches: [ master ]
+    paths:
+      - '.github/workflows/WakatimeStats.yml'
+
 jobs:
-  update-readme:
+  wakatime:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
