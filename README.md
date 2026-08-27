@@ -36,7 +36,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://tokens.ci/api/embed/TomyJan/svg?template=graph&rank=percent&tokens=compact&cost=compact">
     <source media="(prefers-color-scheme: light)" srcset="https://tokens.ci/api/embed/TomyJan/svg?theme=light&template=graph&rank=percent&tokens=compact&cost=compact">
-    <img alt="GitHub Contribution Snake" src="https://tokens.ci/api/embed/TomyJan/svg?theme=light&template=graph&rank=percent&tokens=compact&cost=compact" width="850">
+    <img alt="GitHub Contribution Snake" src="https://tokens.ci/api/embed/TomyJan/svg?theme=light&template=graph&rank=percent&tokens=compact&cost=compact" width="800">
   </picture>
 
   <br><br>
