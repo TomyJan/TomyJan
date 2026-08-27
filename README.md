@@ -34,9 +34,9 @@
 
   <!-- Tokens.ci -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg" width="850">
+    <source media="(prefers-color-scheme: dark)" srcset="https://tokens.ci/api/embed/TomyJan/svg?template=graph&rank=percent&tokens=compact&cost=compact">
+    <source media="(prefers-color-scheme: light)" srcset="https://tokens.ci/api/embed/TomyJan/svg?theme=light&template=graph&rank=percent&tokens=compact&cost=compact">
+    <img alt="GitHub Contribution Snake" src="https://tokens.ci/api/embed/TomyJan/svg?theme=light&template=graph&rank=percent&tokens=compact&cost=compact" width="850">
   </picture>
 
   <br><br>
