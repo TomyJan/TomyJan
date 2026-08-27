@@ -37,11 +37,13 @@
   <br>
 
   <!-- Tokens.ci -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://tokens.ci/api/embed/TomyJan/svg?template=graph&rank=percent&tokens=compact&cost=compact">
-    <source media="(prefers-color-scheme: light)" srcset="https://tokens.ci/api/embed/TomyJan/svg?theme=light&template=graph&rank=percent&tokens=compact&cost=compact">
-    <img alt="Token Usage Stats" src="https://tokens.ci/api/embed/TomyJan/svg?theme=light&template=graph&rank=percent&tokens=compact&cost=compact" width="810">
-  </picture>
+  [
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://tokens.ci/api/embed/TomyJan/svg?today=1&template=graph&rank=percent&tokens=compact&cost=compact">
+      <source media="(prefers-color-scheme: light)" srcset="https://tokens.ci/api/embed/TomyJan/svg?theme=light&today=1&template=graph&rank=percent&tokens=compact&cost=compact">
+      <img alt="Token Usage Stats" src="https://tokens.ci/api/embed/TomyJan/svg?theme=light&today=1&template=graph&rank=percent&tokens=compact&cost=compact" width="810">
+    </picture>
+  ](https://tokens.ci/u/TomyJan)
 
   <br>
 
