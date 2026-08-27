@@ -10,7 +10,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg" width="850">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/TomyJan/TomyJan/snake-output/github-contribution-grid-snake.svg" width="840">
   </picture>
 
   <br><br>
@@ -26,20 +26,24 @@
     <img alt="Top Languages" src="https://raw.githubusercontent.com/TomyJan/TomyJan/stats-output/top-langs-light.svg" height="195">
   </picture>
 
+  <br>
+
 </div>
 
 ## Token Usage Stats
 
 <div align="center">
 
+  <br>
+
   <!-- Tokens.ci -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://tokens.ci/api/embed/TomyJan/svg?template=graph&rank=percent&tokens=compact&cost=compact">
     <source media="(prefers-color-scheme: light)" srcset="https://tokens.ci/api/embed/TomyJan/svg?theme=light&template=graph&rank=percent&tokens=compact&cost=compact">
-    <img alt="GitHub Contribution Snake" src="https://tokens.ci/api/embed/TomyJan/svg?theme=light&template=graph&rank=percent&tokens=compact&cost=compact" width="800">
+    <img alt="Token Usage Stats" src="https://tokens.ci/api/embed/TomyJan/svg?theme=light&template=graph&rank=percent&tokens=compact&cost=compact" width="810">
   </picture>
 
-  <br><br>
+  <br>
 
 </div>
 
