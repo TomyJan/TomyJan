@@ -22,7 +22,7 @@ jobs:
 
 # ==================== 浅色版本 ====================
       - name: Generate Light Stats Card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=default&exclude_repo=apps.apple.com-1,AscNetTJ,casdoor,end_7z,GCProto,GCResource,GenshinImpact-Client-Version,HoYoStudio,rafi1212122-PemukulPaku,SRProto,SRResource,WinFormsAppCalculator,WutheringWaves-UIResources
@@ -30,7 +30,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Light Top Languages Card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=default&show_icons=true&exclude_repo=apps.apple.com-1,AscNetTJ,casdoor,end_7z,GCProto,GCResource,GenshinImpact-Client-Version,HoYoStudio,rafi1212122-PemukulPaku,SRProto,SRResource,WinFormsAppCalculator,WutheringWaves-UIResources
@@ -39,7 +39,7 @@ jobs:
 
       # ==================== 深色版本 ====================
       - name: Generate Dark Stats Card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&exclude_repo=apps.apple.com-1,AscNetTJ,casdoor,end_7z,GCProto,GCResource,GenshinImpact-Client-Version,HoYoStudio,rafi1212122-PemukulPaku,SRProto,SRResource,WinFormsAppCalculator,WutheringWaves-UIResources
@@ -47,7 +47,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Dark Top Languages Card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=github_dark&show_icons=true&exclude_repo=apps.apple.com-1,AscNetTJ,casdoor,end_7z,GCProto,GCResource,GenshinImpact-Client-Version,HoYoStudio,rafi1212122-PemukulPaku,SRProto,SRResource,WinFormsAppCalculator,WutheringWaves-UIResources
